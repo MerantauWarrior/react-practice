@@ -1,0 +1,42 @@
+.Header{
+    padding: 10px 0;
+    background-color: #2b2b2b;
+}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+.Contacts{
+    display: flex;
+}
+.Contact{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.Logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+.ShowWigdet{
+    padding: 4px 5px;
+    background-color: #ea319f;
+    color: #ffffff;
+    border: none;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .Container,
+    .Contacts{
+        flex-direction: column;
+    }
+    .ShowWigdet{
+        margin: 5px 0;
+    }
+}

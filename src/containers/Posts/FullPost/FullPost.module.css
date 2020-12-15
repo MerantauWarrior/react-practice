@@ -1,0 +1,50 @@
+.FullPost{
+    text-align: center;
+}
+.Title{
+    margin: 1.2em 0;
+    text-transform: capitalize;
+}
+.Body{
+    margin-bottom: 1.1em;
+    padding: 1.5em;
+    background-color: #e3e3e3;
+}
+.BtnDelete{
+    border: none;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: maroon;
+    color: #ffffff;
+    cursor: pointer;
+}
+.BtnEdit{
+    border: none;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: darkgreen;
+    color: #ffffff;
+    cursor: pointer;
+}
+.BtnGoBack{
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.Info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-around;
+}
+.Author{
+    font-size: 14px;
+    color: teal;
+}
+.Category{
+    font-size: 14px;
+    color: crimson;
+}

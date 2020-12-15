@@ -1,0 +1,38 @@
+.EditPost{
+    text-align: center;
+}
+.Edit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    border: none;
+    background-color: teal;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+}
+.Edit:disabled{
+    background-color: #e3e3e3;
+}
+.Form{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+.BtnGoBack{
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px){
+    .Form{
+        width: 100%;
+    }
+}

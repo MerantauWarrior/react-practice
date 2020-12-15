@@ -1,0 +1,14 @@
+.Footer{
+    margin-top: auto;
+    padding: 10px 0;
+    background-color: #2b2b2b;
+    text-align: center;
+    color: #ffffff;
+}
+.Text{
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+.Copyright{
+    font-size: 12px;
+}

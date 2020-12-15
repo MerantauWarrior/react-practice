@@ -1,0 +1,14 @@
+.Navigation{
+    background-color: cornflowerblue;
+}
+.List{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@media screen and (max-width: 500px){
+    .List{
+        flex-direction: row;
+    }
+}

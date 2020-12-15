@@ -1,0 +1,20 @@
+.Posts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content:space-around;
+}
+.Add{
+    flex: 1 1 100%;
+    width: 100%;
+    text-align: center;
+}
+.AddLink{
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: teal;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
